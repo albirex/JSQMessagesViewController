@@ -5,7 +5,8 @@ Pod::Spec.new do |s|
 	s.homepage = 'http://jessesquires.github.io/JSQMessagesViewController'
 	s.license = 'MIT'
 	s.platform = :ios, '7.0'
-
+	s.tvos.deployment_target = "9.0"
+	
 	s.author = 'Jesse Squires'
 	s.social_media_url = 'https://twitter.com/jesse_squires'
 
